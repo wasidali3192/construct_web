@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renovation and Modeling</title>
+    <!-- <link rel="stylesheet" href="renov.css" /> -->
+    <style>
+      /* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #e88888;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  
+}
+
+nav {
+  background-color:   #e88888;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* position: fixed; */
+  width: 100%;
+  /* z-index: 1; */
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+}
+
+nav li a:hover {
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 0 10px #fff;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-right: 2rem;
+}
+
+nav .logo:hover {
+  text-shadow: 0 0 10px #fff;
+}
+
+/* Section styles */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.renovation h1,
+.modelling h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.renovation p,
+.modelling p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.renovation img,
+.modelling img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.renovation ul,
+.modelling ul {
+  list-style: none;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.renovation li,
+.modelling li {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  flex-basis: 45%;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0.5rem 0;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/index.html">About Us</a></li>
+          <li><a href="/index.html">Services</a></li>
+          <li><a href="/index.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="renovation">
+      <h1>Renovation and Modeling</h1>
+      <img src="/img/reno.jpg" alt="Renovation and Modeling" />
+      <p>
+        Our team of expert craftsmen specialize in renovation and remodeling of
+        commercial spaces. Whether you're looking to refresh the look of your
+        space or make a complete transformation, we have the experience and
+        skill to make it happen.
+      </p>
+      <ul>
+        <li>Complete commercial renovation</li>
+        <li>Remodeling of interior and exterior spaces</li>
+        <li>Expert craftsmanship and attention to detail</li>
+        <li>Custom design and construction</li>
+      </ul>
+    </section>
+    <section class="modelling">
+      <h2>Modelling</h2>
+      <img src="/img/modll.jpg" alt="Modelling" />
+      <p>
+        Our team of designers and architects work with you to create custom
+        models of your commercial space. We use the latest technology and
+        techniques to create realistic and accurate models that allow you to see
+        your space in detail before construction begins.
+      </p>
+      <ul>
+        <li>3D modelling and rendering</li>
+        <li>Virtual reality walk-throughs</li>
+        <li>Accurate and realistic models</li>
+        <li>Custom design and construction</li>
+      </ul>
+    </section>
+    <footer>
+      <p>&copy; 2023 Renovation and Modeling. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

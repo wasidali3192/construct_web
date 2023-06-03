@@ -65,6 +65,7 @@ app.get('/admin', (req, res) => {
   const page = parseInt(req.query.page) || 1;
   const perPage = 10; // Number of contacts to display per page
 
+
   Contact.find()
     .sort({ createdAt: -1 })
     .skip((page - 1) * perPage)
@@ -81,6 +82,8 @@ app.get('/admin', (req, res) => {
     });
 });
 
+
+// added last night for sign in purpose
 
 //Recieving user response from client side then saving it to database
 
